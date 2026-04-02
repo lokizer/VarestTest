@@ -1,0 +1,66 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.6",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "VarestTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "VaRest",
+			"Enabled": true
+		},
+		{
+			"Name": "HttpBlueprint",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleARKitFaceSupport",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "NV_ACE_Reference",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/ace-unreal-engine-plugin"
+		},
+		{
+			"Name": "HumanAudio2Face",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
+			]
+		}
+	]
+}
