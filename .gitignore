@@ -87,3 +87,4 @@ Script
 *.user
 *.vsconfig
 *.code-workspace
+.idea/
